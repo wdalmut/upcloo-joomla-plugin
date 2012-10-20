@@ -3,23 +3,17 @@
     <name>plg_content_upcloo</name>
     <creationDate>20/11/2011</creationDate>
     <author>Walter Dal Mut</author>
-    <authorEmail>walter.dalmut@gmail.com</authorEmail>
+    <authorEmail>walter.dalmut@upcloo.com</authorEmail>
     <authorUrl>http://www.upcloo.com</authorUrl>
-    <copyright>Copyright Walter Dal Mut, Gabriele Mittica</copyright>
+    <copyright>Copyright UpCloo Ltd.</copyright>
     <license>License, MIT</license>
     <version>0.1</version>
     <description>
-        UpCloo is a cloud based and fully hosted indexing engine 
-        that helps you to create incredible and automatic correlations 
+        UpCloo is a cloud based and fully hosted indexing engine
+        that helps you to create incredible and automatic correlations
         between contents of your website.
     </description>
     <files>
         <filename plugin="upcloo">upcloo.php</filename>
     </files>
-    <languages>
-        <language tag="en-GB">en-GB.plg_content_upcloo.ini</language>
-        <language tag="en-GB">en-GB.plg_content_upcloo.sys.ini</language>
-        <language tag="it-IT">it-IT.plg_content_upcloo.ini</language>
-        <language tag="it-IT">it-IT.plg_content_upcloo.sys.ini</language>
-    </languages>
 </extension>

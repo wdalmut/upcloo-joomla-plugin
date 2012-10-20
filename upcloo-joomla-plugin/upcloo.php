@@ -3,7 +3,7 @@
  * @version		$Id: upcloo.php 1 20/11/2011 walter.dalmut@gmail.com $
  * @package		Joomla
  * @subpackage	Content
- * @copyright	Copyright (C) 2011 Walter Dal Mut, Gabriele Mittica. All rights reserved.
+ * @copyright	Copyright (C) 2012 UpCloo Ltd. All rights reserved.
  * @license		MIT license,
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -29,42 +29,29 @@ defined( '_JEXEC' ) or die( 'Restricted access' );
 
 jimport( 'joomla.plugin.plugin' );
 
-class plgContentUpcloo extends JPlugin 
+class plgContentUpcloo extends JPlugin
 {
-    const FRONT_END_POINT = 'http://%s.update.upcloo.com';
-    const REPOSITORY_END_POINT = 'http://repository.upcloo.com/%s';
-
     public function __construct(&$subject, $config)
     {
         parent::__construct($subject, $config);
-        
-//         die(var_dump($config));
-        
-        $lang = JFactory::getLanguage();
-        $ret = $lang->load('plg_content_upcloo');
-        die(var_dump($ret));
+
+        $ret = JFactory::getLanguage()->load(
+            "upcloo",
+            dirname(__FILE__),
+            JFactory::getLanguage()->getTag(),
+            true
+        );
     }
-    
-    public function onContentBeforeDisplay($context, &$article, &$params, $page=0)    
+
+    public function onContentBeforeDisplay($context, &$article, &$params, $page=0)
     {
         $id = $article->id;
-        
-//         die(var_dump($article));
-        
-        $article->text .= '<h2>'.JText::_( 'PLG_CONTENT_UPCLOO_RESULT' ).'</h2>';
-        
-        $this->_publishToUpCloo($article);
-    }
-    
-    /**
-     * Check if this content is to send to UpCloo.
-     * 
-     * @param object $article
-     */
-    private function _publishToUpCloo($article)
-    {
-        if ($article->published == '1') {
-            //Check if you have to send to UpCloo
-        }
+        $domain = JURI::root();
+
+        // Use "category_alias"
+        //if ("article" == JRequest::getVar('view')) {
+            //Put the SDK here
+            //$article->text .= JS!
+        //}
     }
 }

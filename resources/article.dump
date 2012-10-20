@@ -1,0 +1,285 @@
+object(stdClass)#493 (51) {
+  ["id"]=>
+  string(2) "24"
+  ["asset_id"]=>
+  string(3) "122"
+  ["title"]=>
+  string(7) "Joomla!"
+  ["alias"]=>
+  string(6) "joomla"
+  ["title_alias"]=>
+  string(0) ""
+  ["introtext"]=>
+  string(398) "
+Congratulations! You have a Joomla site! Joomla makes it easy to build a website just the way you want it and keep it simple to update and maintain.
+
+
+Joomla is a flexible and powerful platform, whether you are building a small site for yourself or a huge site with hundreds of thousands of visitors. Joomla is open source, which means you can make it work just the way you want it to.
+
+"
+  ["fulltext"]=>
+  string(0) ""
+  ["state"]=>
+  string(1) "1"
+  ["mask"]=>
+  string(1) "0"
+  ["catid"]=>
+  string(2) "19"
+  ["created"]=>
+  string(19) "2011-01-01 00:00:01"
+  ["created_by"]=>
+  string(3) "997"
+  ["created_by_alias"]=>
+  string(7) "Joomla!"
+  ["modified"]=>
+  string(19) "2011-12-27 11:22:23"
+  ["modified_by"]=>
+  string(2) "42"
+  ["checked_out"]=>
+  string(1) "0"
+  ["checked_out_time"]=>
+  string(19) "0000-00-00 00:00:00"
+  ["publish_up"]=>
+  string(19) "2011-01-01 00:00:01"
+  ["publish_down"]=>
+  string(19) "0000-00-00 00:00:00"
+  ["images"]=>
+  string(173) "{"image_intro":"","float_intro":"","image_intro_alt":"","image_intro_caption":"","image_fulltext":"","float_fulltext":"","image_fulltext_alt":"","image_fulltext_caption":""}"
+  ["urls"]=>
+  string(112) "{"urla":"","urlatext":"","targeta":"","urlb":"","urlbtext":"","targetb":"","urlc":"","urlctext":"","targetc":""}"
+  ["attribs"]=>
+  string(534) "{"show_title":"","link_titles":"","show_intro":"","show_category":"","link_category":"","show_parent_category":"","link_parent_category":"","show_author":"","link_author":"","show_create_date":"","show_modify_date":"","show_publish_date":"","show_item_navigation":"","show_icons":"","show_print_icon":"","show_email_icon":"","show_vote":"","show_hits":"","show_noauth":"","alternative_readmore":"","article_layout":"","show_publishing_options":"","show_article_options":"","show_urls_images_backend":"","show_urls_images_frontend":""}"
+  ["version"]=>
+  string(1) "2"
+  ["parentid"]=>
+  string(1) "0"
+  ["ordering"]=>
+  string(1) "2"
+  ["metakey"]=>
+  string(0) ""
+  ["metadesc"]=>
+  string(0) ""
+  ["access"]=>
+  string(1) "1"
+  ["hits"]=>
+  string(1) "1"
+  ["metadata"]=>
+  object(JRegistry)#527 (1) {
+    ["data":protected]=>
+    object(stdClass)#528 (4) {
+      ["robots"]=>
+      string(0) ""
+      ["author"]=>
+      string(0) ""
+      ["rights"]=>
+      string(0) ""
+      ["xreference"]=>
+      string(0) ""
+    }
+  }
+  ["featured"]=>
+  string(1) "1"
+  ["language"]=>
+  string(1) "*"
+  ["xreference"]=>
+  string(0) ""
+  ["category_title"]=>
+  string(7) "Joomla!"
+  ["category_alias"]=>
+  string(6) "joomla"
+  ["category_access"]=>
+  string(1) "1"
+  ["author"]=>
+  string(10) "Super User"
+  ["contactid"]=>
+  NULL
+  ["parent_title"]=>
+  string(20) "Sample Data-Articles"
+  ["parent_id"]=>
+  string(2) "14"
+  ["parent_route"]=>
+  string(20) "sample-data-articles"
+  ["parent_alias"]=>
+  string(20) "sample-data-articles"
+  ["rating"]=>
+  NULL
+  ["rating_count"]=>
+  NULL
+  ["params"]=>
+  object(JRegistry)#525 (1) {
+    ["data":protected]=>
+    object(stdClass)#516 (75) {
+      ["article_layout"]=>
+      string(9) "_:default"
+      ["show_title"]=>
+      string(1) "1"
+      ["link_titles"]=>
+      string(1) "1"
+      ["show_intro"]=>
+      string(1) "1"
+      ["show_category"]=>
+      string(1) "1"
+      ["link_category"]=>
+      string(1) "1"
+      ["show_parent_category"]=>
+      string(1) "0"
+      ["link_parent_category"]=>
+      string(1) "0"
+      ["show_author"]=>
+      string(1) "1"
+      ["link_author"]=>
+      string(1) "0"
+      ["show_create_date"]=>
+      string(1) "0"
+      ["show_modify_date"]=>
+      string(1) "0"
+      ["show_publish_date"]=>
+      string(1) "1"
+      ["show_item_navigation"]=>
+      string(1) "1"
+      ["show_vote"]=>
+      string(1) "0"
+      ["show_readmore"]=>
+      string(1) "1"
+      ["show_readmore_title"]=>
+      string(1) "1"
+      ["readmore_limit"]=>
+      string(3) "100"
+      ["show_icons"]=>
+      string(1) "1"
+      ["show_print_icon"]=>
+      string(1) "1"
+      ["show_email_icon"]=>
+      string(1) "1"
+      ["show_hits"]=>
+      string(1) "1"
+      ["show_noauth"]=>
+      string(1) "0"
+      ["show_publishing_options"]=>
+      string(1) "1"
+      ["show_article_options"]=>
+      string(1) "1"
+      ["show_urls_images_frontend"]=>
+      string(1) "0"
+      ["show_urls_images_backend"]=>
+      string(1) "1"
+      ["targeta"]=>
+      int(0)
+      ["targetb"]=>
+      int(0)
+      ["targetc"]=>
+      int(0)
+      ["float_intro"]=>
+      string(4) "left"
+      ["float_fulltext"]=>
+      string(4) "left"
+      ["category_layout"]=>
+      string(6) "_:blog"
+      ["show_category_title"]=>
+      string(1) "0"
+      ["show_description"]=>
+      string(1) "0"
+      ["show_description_image"]=>
+      string(1) "0"
+      ["maxLevel"]=>
+      string(1) "1"
+      ["show_empty_categories"]=>
+      string(1) "0"
+      ["show_no_articles"]=>
+      string(1) "1"
+      ["show_subcat_desc"]=>
+      string(1) "1"
+      ["show_cat_num_articles"]=>
+      string(1) "0"
+      ["show_base_description"]=>
+      string(1) "1"
+      ["maxLevelcat"]=>
+      string(2) "-1"
+      ["show_empty_categories_cat"]=>
+      string(1) "0"
+      ["show_subcat_desc_cat"]=>
+      string(1) "1"
+      ["show_cat_num_articles_cat"]=>
+      string(1) "1"
+      ["num_leading_articles"]=>
+      string(1) "1"
+      ["num_intro_articles"]=>
+      string(1) "4"
+      ["num_columns"]=>
+      string(1) "2"
+      ["num_links"]=>
+      string(1) "4"
+      ["multi_column_order"]=>
+      string(1) "0"
+      ["show_subcategory_content"]=>
+      string(1) "0"
+      ["show_pagination_limit"]=>
+      string(1) "1"
+      ["filter_field"]=>
+      string(4) "hide"
+      ["show_headings"]=>
+      string(1) "1"
+      ["list_show_date"]=>
+      string(1) "0"
+      ["date_format"]=>
+      string(0) ""
+      ["list_show_hits"]=>
+      string(1) "1"
+      ["list_show_author"]=>
+      string(1) "1"
+      ["orderby_pri"]=>
+      string(5) "order"
+      ["orderby_sec"]=>
+      string(5) "alpha"
+      ["order_date"]=>
+      string(9) "published"
+      ["show_pagination"]=>
+      string(1) "2"
+      ["show_pagination_results"]=>
+      string(1) "1"
+      ["show_feed_link"]=>
+      string(1) "1"
+      ["feed_summary"]=>
+      string(1) "0"
+      ["display_num"]=>
+      string(2) "10"
+      ["menu_text"]=>
+      int(1)
+      ["show_page_heading"]=>
+      int(0)
+      ["secure"]=>
+      int(0)
+      ["page_title"]=>
+      string(21) "Article Category List"
+      ["page_description"]=>
+      string(0) ""
+      ["page_rights"]=>
+      string(0) ""
+      ["robots"]=>
+      string(0) ""
+      ["access-view"]=>
+      bool(true)
+    }
+  }
+  ["slug"]=>
+  string(9) "24:joomla"
+  ["catslug"]=>
+  string(9) "19:joomla"
+  ["parent_slug"]=>
+  string(23) "14:sample-data-articles"
+  ["readmore_link"]=>
+  string(95) "/index.php/using-joomla/extensions/components/content-component/article-category-list/24-joomla"
+  ["text"]=>
+  string(399) "
+Congratulations! You have a Joomla site! Joomla makes it easy to build a website just the way you want it and keep it simple to update and maintain.
+
+
+Joomla is a flexible and powerful platform, whether you are building a small site for yourself or a huge site with hundreds of thousands of visitors. Joomla is open source, which means you can make it work just the way you want it to.
+
+ "
+  ["event"]=>
+  object(stdClass)#542 (1) {
+    ["afterDisplayTitle"]=>
+    string(0) ""
+  }
+}
